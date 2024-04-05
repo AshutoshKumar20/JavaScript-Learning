@@ -24,5 +24,8 @@
 // var fullName = "Ashutosh";
 // console.log(typeof +fullName);
 
+// var number = "ashu";
+// console.log(typeof Number(number));
+
 // var fullName = "12";
 // console.log(parseInt(typeof fullName))
