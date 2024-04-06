@@ -29,3 +29,5 @@
 
 // var fullName = "12";
 // console.log(parseInt(typeof fullName))
+
+// Concatenation 
