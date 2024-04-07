@@ -38,3 +38,9 @@
 // var fullName = "Ashutosh" + " " + "Kumar";
 // console.log(fullName)
 
+// Expressions
+
+var num1 = 12;
+var num2 = 15;
+var addition = num1 + num2;
+console.log(addition);
