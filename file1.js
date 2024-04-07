@@ -30,4 +30,11 @@
 // var fullName = "12";
 // console.log(parseInt(typeof fullName))
 
-// Concatenation 
+// Concatenation
+
+// var number = "5" + 12;
+// console.log(number)
+
+// var fullName = "Ashutosh" + " " + "Kumar";
+// console.log(fullName)
+
