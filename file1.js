@@ -67,24 +67,36 @@
 // var modulus = num1 % num2;
 // console.log(modulus);
 
-// Comparison 
+// Comparison
 
 // ==
-var num1 = 2;
-var num2 = "2";
+// var num1 = 2;
+// var num2 = "2";
 
-if (num1 == num2) {
-    console.log("Equal")
-} else {
-    console.log("Not Equal")
-}
+// if (num1 == num2) {
+//     console.log("Equal")
+// } else {
+//     console.log("Not Equal")
+// }
 
 // ===
-var num1 = 2;
-var num2 = "2";
+// var num1 = 2;
+// var num2 = "2";
 
-if (num1 === num2) {
-    console.log("Equal")
-} else {
-    console.log("Not Equal")
-}
+// if (num1 === num2) {
+//     console.log("Equal")
+// } else {
+//     console.log("Not Equal")
+// }
+
+//Logical
+
+// &&(AND OPERATOR)
+
+var age = 15;
+hadDrivingLicense = true;
+
+console.log(age >= 18 && hadDrivingLicense);
+
+// ||(OR OPERATOR)
+
