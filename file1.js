@@ -119,9 +119,21 @@
 
 // Expressions 
 
-var temperature = 25;
+// If-Else Statement
+// var temperature = 25;
+// if (temperature > 30) {
+//     console.log("Let's go to beach")
+// } else {
+//     console.log("Watch TV at Home")
+// }
+
+// Else-If Clause
+var temperature = 40;
 if (temperature > 30) {
     console.log("Let's go to beach")
-} else {
+}
+else if (temperature >= 20 && temperature <= 30) {
     console.log("Watch TV at Home")
+} else {
+    console.log("It's cold here")
 }
