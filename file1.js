@@ -100,3 +100,7 @@ console.log(age >= 18 && hadDrivingLicense);
 
 // ||(OR OPERATOR)
 
+var num1 = 2;
+var num2 = 4;
+
+console.log(num1 > 0 || num2 > 0)
