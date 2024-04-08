@@ -111,3 +111,8 @@
 // var eligibleForDrive = true;
 
 // console.log(age >= 18 ? eligibleForDrive : false);
+
+// var score = 74;
+// var result = score >= 60 ? "Student Passed the exam" : "Student Failed";
+
+// console.log(result);
