@@ -40,27 +40,51 @@
 
 // Expressions
 
-var num1 = 12;
-var num2 = 15;
-var addition = num1 + num2;
-console.log(addition);
+// Arithmetic
 
-var num1 = 12;
-var num2 = 15;
-var subtraction = num1 - num2;
-console.log(subtraction);
+// var num1 = 12;
+// var num2 = 15;
+// var addition = num1 + num2;
+// console.log(addition);
 
-var num1 = 12;
-var num2 = 15;
-var product = num1 * num2;
-console.log(product);
+// var num1 = 12;
+// var num2 = 15;
+// var subtraction = num1 - num2;
+// console.log(subtraction);
 
-var num1 = 12;
-var num2 = 15;
-var division = num1 / num2;
-console.log(division);
+// var num1 = 12;
+// var num2 = 15;
+// var product = num1 * num2;
+// console.log(product);
 
-var num1 = 12;
-var num2 = 15;
-var modulus = num1 % num2;
-console.log(modulus);
+// var num1 = 12;
+// var num2 = 15;
+// var division = num1 / num2;
+// console.log(division);
+
+// var num1 = 12;
+// var num2 = 15;
+// var modulus = num1 % num2;
+// console.log(modulus);
+
+// Comparison 
+
+// ==
+var num1 = 2;
+var num2 = "2";
+
+if (num1 == num2) {
+    console.log("Equal")
+} else {
+    console.log("Not Equal")
+}
+
+// ===
+var num1 = 2;
+var num2 = "2";
+
+if (num1 === num2) {
+    console.log("Equal")
+} else {
+    console.log("Not Equal")
+}
