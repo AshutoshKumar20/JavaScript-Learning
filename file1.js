@@ -93,14 +93,21 @@
 
 // &&(AND OPERATOR)
 
-var age = 15;
-hadDrivingLicense = true;
+// var age = 15;
+// hadDrivingLicense = true;
 
-console.log(age >= 18 && hadDrivingLicense);
+// console.log(age >= 18 && hadDrivingLicense);
 
 // ||(OR OPERATOR)
 
-var num1 = 2;
-var num2 = 4;
+// var num1 = 2;
+// var num2 = 4;
 
-console.log(num1 > 0 || num2 > 0)
+// console.log(num1 > 0 || num2 > 0)
+
+// TERNARY(CONDITIONAL) OPERATOR
+
+// var age = 18;
+// var eligibleForDrive = true;
+
+// console.log(age >= 18 ? eligibleForDrive : false);
