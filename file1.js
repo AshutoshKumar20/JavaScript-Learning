@@ -116,3 +116,12 @@
 // var result = score >= 60 ? "Student Passed the exam" : "Student Failed";
 
 // console.log(result);
+
+// Expressions 
+
+var temperature = 25;
+if (temperature > 30) {
+    console.log("Let's go to beach")
+} else {
+    console.log("Watch TV at Home")
+}
