@@ -128,12 +128,26 @@
 // }
 
 // Else-If Clause
-var temperature = 40;
-if (temperature > 30) {
-    console.log("Let's go to beach")
-}
-else if (temperature >= 20 && temperature <= 30) {
-    console.log("Watch TV at Home")
+// var temperature = 40;
+// if (temperature > 30) {
+//     console.log("Let's go to beach")
+// }
+// else if (temperature >= 20 && temperature <= 30) {
+//     console.log("Watch TV at Home")
+// } else {
+//     console.log("It's cold here")
+// }
+
+var age = 18;
+var citizen = false;
+var eligibleToVote = false;
+
+if (age >= 18 && citizen && eligibleToVote) {
+    console.log("They are eligible to vote")
+} else if (age >= 18 && citizen) {
+    console.log("They are not eligible due to citizenship status")
+} else if (age >= 18 && eligibleToVote) {
+    console.log("They are not eligible to registration status")
 } else {
-    console.log("It's cold here")
+    console.log("They are not eligible to vote")
 }
