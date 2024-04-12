@@ -131,7 +131,7 @@
 
 // console.log(result);
 
-// Expressions 
+// Expressions
 
 // If-Else Statement
 // var temperature = 25;
@@ -170,20 +170,30 @@
 
 // 2nd way to solve this question
 
-var age = 19;
-var citizen = true;
-var eligibleToVote = true;
+// var age = 19;
+// var citizen = true;
+// var eligibleToVote = false;
 
-if (age >= 18) {
-    if (citizen) {
-        if (eligibleToVote) {
-            console.log("You are eligible to vote")
-        } else {
-            console.log("You are not eligible to registration status")
-        }
-    } else {
-        console.log("You are not eligible to vote due to citizenship status")
-    }
+// if (age >= 18) {
+//     if (citizen) {
+//         if (eligibleToVote) {
+//             console.log("You are eligible to vote")
+//         } else {
+//             console.log("You are not eligible to registration status")
+//         }
+//     } else {
+//         console.log("You are not eligible to vote due to citizenship status")
+//     }
+// } else {
+//     console.log("You are not eligible to vote (Younger)")
+// }
+
+// To check the given number is even or odd
+
+var num = 9;
+
+if (num % 2 === 0) {
+    console.log("Given Number is even")
 } else {
-    console.log("You are not eligible to vote (Younger)")
+    console.log("Given Number is odd")
 }
