@@ -116,15 +116,15 @@ if (str1 === str2) {
 
 // TERNARY(CONDITIONAL) OPERATOR
 
-var age = 18;
-var eligibleForDrive = true;
+// var age = 18;
+// var eligibleForDrive = true;
 
-console.log(age >= 18 ? eligibleForDrive : false);
+// console.log(age >= 18 ? eligibleForDrive : false);
 
-var age = 18;
-var eligibleForVote = true;
+// var age = 18;
+// var eligibleForVote = true;
 
-console.log(age >= 18 ? eligibleForVote : false);
+// console.log(age >= 18 ? eligibleForVote : false);
 
 // var score = 74;
 // var result = score >= 60 ? "Student Passed the exam" : "Student Failed";
@@ -152,6 +152,8 @@ console.log(age >= 18 ? eligibleForVote : false);
 //     console.log("It's cold here")
 // }
 
+// 1st way to solve this question
+
 var age = 18;
 var citizen = false;
 var eligibleToVote = false;
@@ -165,3 +167,9 @@ if (age >= 18 && citizen && eligibleToVote) {
 } else {
     console.log("They are not eligible to vote")
 }
+
+// 2nd way to solve this question
+
+var age = 18;
+var citizen = true;
+var eligibleToVote = false;
