@@ -89,14 +89,14 @@
 //     console.log("Not Equal")
 // }
 
-var str1 = "1";
-var str2 = "2";
+// var str1 = "1";
+// var str2 = "2";
 
-if (str1 === str2) {
-    console.log("Equal")
-} else {
-    console.log("Not Equal")
-}
+// if (str1 === str2) {
+//     console.log("Equal")
+// } else {
+//     console.log("Not Equal")
+// }
 
 //Logical
 
@@ -154,22 +154,36 @@ if (str1 === str2) {
 
 // 1st way to solve this question
 
-var age = 18;
-var citizen = false;
-var eligibleToVote = false;
+// var age = 18;
+// var citizen = false;
+// var eligibleToVote = false;
 
-if (age >= 18 && citizen && eligibleToVote) {
-    console.log("They are eligible to vote")
-} else if (age >= 18 && citizen) {
-    console.log("They are not eligible due to citizenship status")
-} else if (age >= 18 && eligibleToVote) {
-    console.log("They are not eligible to registration status")
-} else {
-    console.log("They are not eligible to vote")
-}
+// if (age >= 18 && citizen && eligibleToVote) {
+//     console.log("They are eligible to vote")
+// } else if (age >= 18 && citizen) {
+//     console.log("They are not eligible due to citizenship status")
+// } else if (age >= 18 && eligibleToVote) {
+//     console.log("They are not eligible to registration status")
+// } else {
+//     console.log("They are not eligible to vote")
+// }
 
 // 2nd way to solve this question
 
-var age = 18;
+var age = 19;
 var citizen = true;
-var eligibleToVote = false;
+var eligibleToVote = true;
+
+if (age >= 18) {
+    if (citizen) {
+        if (eligibleToVote) {
+            console.log("You are eligible to vote")
+        } else {
+            console.log("You are not eligible to registration status")
+        }
+    } else {
+        console.log("You are not eligible to vote due to citizenship status")
+    }
+} else {
+    console.log("You are not eligible to vote (Younger)")
+}
