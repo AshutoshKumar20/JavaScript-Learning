@@ -211,3 +211,19 @@
 // }
 
 // Switch statement
+
+// var day = "Sunday";
+
+// switch (day) {
+//     case "Monday":
+//         console.log("It's Monday")
+//         break;
+//     case "Wednesday":
+//         console.log("It's Wednesday")
+//         break;
+//     case "Sunday":
+//         console.log("It's Sunday")
+//         break;
+//     default:
+//         console.log("It doesn't match with the mentioned days")
+// }
