@@ -200,12 +200,14 @@
 
 // To check the given number is positive, negative or zero
 
-var num = 10;
+// var num = 10;
 
-if (num === 0) {
-    console.log("Number is zero")
-} else if (num > 0) {
-    console.log("Number is positive")
-} else {
-    console.log("Number is negative")
-}
+// if (num === 0) {
+//     console.log("Number is zero")
+// } else if (num > 0) {
+//     console.log("Number is positive")
+// } else {
+//     console.log("Number is negative")
+// }
+
+// Switch statement
