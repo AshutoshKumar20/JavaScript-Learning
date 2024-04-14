@@ -227,3 +227,5 @@
 //     default:
 //         console.log("It doesn't match with the mentioned days")
 // }
+
+// Another Question on switch
