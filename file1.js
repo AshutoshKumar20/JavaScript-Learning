@@ -228,4 +228,6 @@
 //         console.log("It doesn't match with the mentioned days")
 // }
 
+// Practice Restart
+
 // Another Question on switch
