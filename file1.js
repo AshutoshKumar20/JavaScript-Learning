@@ -231,3 +231,28 @@
 // Practice Restart
 
 // Another Question on switch
+
+var areaOfShapes = "triangle";
+var a = 5;
+var b = 6;
+
+switch (areaOfShapes) {
+    case "square":
+        var result = a * a;
+        console.log(result);
+        break;
+
+    case "rectangle":
+        var result = a * b;
+        console.log(result);
+        break;
+
+    case "circle":
+        var r = 2
+        var result = 3.142 * (r * r);
+        console.log(result);
+        break;
+
+    default:
+        console.log("No Matches Found");
+}
