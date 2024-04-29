@@ -261,6 +261,14 @@
 
 var i = 0
 while (i <= 20) {
-    i++;
     console.log(i)
+    i++;
 }
+
+// Do while loop
+
+var num = 0;
+do {
+    console.log(num);
+    num++
+} while (num <= 10)
