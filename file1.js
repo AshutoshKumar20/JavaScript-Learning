@@ -259,16 +259,22 @@
 
 // While Loop
 
-var i = 0
-while (i <= 20) {
-    console.log(i)
-    i++;
-}
+// var i = 0
+// while (i <= 20) {
+//     console.log(i)
+//     i++;
+// }
 
 // Do while loop
 
-var num = 0;
-do {
-    console.log(num);
-    num++
-} while (num <= 10)
+// var num = 0;
+// do {
+//     console.log(num);
+//     num++
+// } while (num <= 10)
+
+// For loop
+
+// for (let i = 0; i <= 20; i++) {
+//     console.log(i)
+// }
