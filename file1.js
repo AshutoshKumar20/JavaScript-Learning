@@ -280,17 +280,26 @@
 // } while (num <= 10)
 
 // Validation of a number if it gives a right positive value
-let userNumber;
-let positiveNumber;
 
-do {
-    userNumber = prompt("Enter any positive number")
-    positiveNumber = parseFloat(userNumber)
-} while (isNaN(positiveNumber) || (positiveNumber < 0))
-console.log("The entered number is ", positiveNumber)
+// let userNumber;
+// let positiveNumber;
+
+// do {
+//     userNumber = prompt("Enter any positive number")
+//     positiveNumber = parseFloat(userNumber)
+// } while (isNaN(positiveNumber) || (positiveNumber < 0))
+// console.log("The entered number is ", positiveNumber)
 
 // For loop
 
 // for (let i = 0; i <= 20; i++) {
 //     console.log(i)
 // }
+
+// Sum of first 10 numbers
+
+var sum = 0;
+for (var i = 0; i <= 10; i++) {
+    var sum = sum + i;
+}
+console.log("The sum of first 10 numbers is: ", sum)
