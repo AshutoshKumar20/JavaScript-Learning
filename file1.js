@@ -260,7 +260,7 @@
 // While Loop
 
 var i = 0
-while (i = 0, i <= 20, i++) {
-
+while (i <= 20) {
+    i++;
+    console.log(i)
 }
-console.log(i)
