@@ -279,6 +279,16 @@
 //     num++
 // } while (num <= 10)
 
+// Validation of a number if it gives a right positive value
+let userNumber;
+let positiveNumber;
+
+do {
+    userNumber = prompt("Enter any positive number")
+    positiveNumber = parseFloat(userNumber)
+} while (isNaN(positiveNumber) || (positiveNumber < 0))
+console.log("The entered number is ", positiveNumber)
+
 // For loop
 
 // for (let i = 0; i <= 20; i++) {
