@@ -298,8 +298,25 @@
 
 // Sum of first 10 numbers
 
-var sum = 0;
-for (var i = 0; i <= 10; i++) {
-    var sum = sum + i;
-}
-console.log("The sum of first 10 numbers is: ", sum)
+// var sum = 0;
+// for (var i = 0; i <= 10; i++) {
+//     var sum = sum + i;
+// }
+// console.log("The sum of first 10 numbers is: ", sum)
+
+// Find the number is prime or not
+
+// var num = 23;
+// var isPrime = true
+// for (var i = 2; i < num; i++) {
+//     if (num % i === 0) {
+//         isPrime = false;
+//         break;
+//     }
+// }
+
+// if (isPrime) {
+//     console.log("Num is Prime")
+// } else {
+//     console.log("Num is not Prime")
+// }
