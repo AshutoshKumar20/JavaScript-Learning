@@ -320,3 +320,10 @@
 // } else {
 //     console.log("Num is not Prime")
 // }
+
+// Calculate the table of 8using for loop
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log("8 * " + i + " = ", 8 * i)
+// }
+
