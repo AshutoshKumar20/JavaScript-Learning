@@ -339,3 +339,12 @@
 //     console.log("15 * " + i + " = ", 15 * i)
 // }
 
+// To find the given year is a leap year or not
+
+var year = 2023;
+
+if ((year % 4 === 0 && year % 100 != 0) || (year % 400 === 0)) {
+    console.log(year, "It's a leap year")
+} else {
+    console.log(year, "It's not a leap year")
+}
