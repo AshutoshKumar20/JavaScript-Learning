@@ -327,3 +327,15 @@
 //     console.log("8 * " + i + " = ", 8 * i)
 // }
 
+// for (var i = 1; i <= 10; i++) {
+//     console.log("9 * " + i + " = ", 9 * i)
+// }
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log("12 * " + i + " = ", 12 * i)
+// }
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log("15 * " + i + " = ", 15 * i)
+// }
+
