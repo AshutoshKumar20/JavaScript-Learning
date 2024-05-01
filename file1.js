@@ -341,10 +341,20 @@
 
 // To find the given year is a leap year or not
 
-var year = 2023;
+// var year = 2023;
 
-if ((year % 4 === 0 && year % 100 != 0) || (year % 400 === 0)) {
-    console.log(year, "It's a leap year")
-} else {
-    console.log(year, "It's not a leap year")
+// if ((year % 4 === 0 && year % 100 != 0) || (year % 400 === 0)) {
+//     console.log(year, "It's a leap year")
+// } else {
+//     console.log(year, "It's not a leap year")
+// }
+
+// To print the asterisk pattern
+
+for (var i = 1; i <= 5; i++) {
+    var pattern = "";
+    for (var j = 1; j <= i; j++) {
+        pattern = pattern + " * "
+    }
+    console.log(pattern)
 }
