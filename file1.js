@@ -351,10 +351,18 @@
 
 // To print the asterisk pattern
 
-for (var i = 1; i <= 5; i++) {
-    var pattern = "";
-    for (var j = 1; j <= i; j++) {
-        pattern = pattern + " * "
-    }
-    console.log(pattern)
-}
+// for (var i = 1; i <= 5; i++) {
+//     var pattern = "";
+//     for (var j = 1; j <= i; j++) {
+//         pattern = pattern + " * "
+//     }
+//     console.log(pattern)
+// }
+
+// Functions
+
+// function sum(a, b) {
+//     return a + b;
+// }
+
+// console.log(sum(5, 10));
