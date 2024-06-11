@@ -53,8 +53,24 @@
 
 // String Operators
 
-var str1 = "Hello"
-var str2 = "World"
+// var str1 = "Hello"
+// var str2 = "World"
 
-var result = str1 + str2
-console.log(result);
+// var result = str1 + str2
+// console.log(result);
+
+// Logical Operators
+
+// var a = 5;
+// var b = 10;
+
+// console.log(a < 10 && b > 15)
+
+// var c = 5;
+// var d = 10;
+
+// console.log(c > 10 || d > 15)
+
+// var isOpen = true;
+// console.log(isOpen) 
+
