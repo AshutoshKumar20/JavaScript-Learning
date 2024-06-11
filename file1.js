@@ -44,3 +44,9 @@
 
 var num = "hello" / 2;
 console.log(num);
+
+var result = 0.1 + 0.2;
+console.log(result);
+
+var resultToFix = 0.1 + 0.2;
+console.log(result.toFixed(1));
