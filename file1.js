@@ -74,3 +74,9 @@
 // var isOpen = true;
 // console.log(isOpen) 
 
+// Write a program that determines if a person is eligible to drive based on their age being greater than or equal to 18 and having a valid driver's license ?
+
+var age = 18;
+var havingDrivingLicense = true;
+
+console.log(age >= 18 && havingDrivingLicense);
