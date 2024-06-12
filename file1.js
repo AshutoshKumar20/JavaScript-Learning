@@ -74,9 +74,17 @@
 // var isOpen = true;
 // console.log(isOpen) 
 
-// Write a program that determines if a person is eligible to drive based on their age being greater than or equal to 18 and having a valid driver's license ?
+// Q1. Write a program that determines if a person is eligible to drive based on their age being greater than or equal to 18 and having a valid driver's license ?
 
 var age = 18;
-var havingDrivingLicense = true;
+var hasDriverLicense = true;
 
-console.log(age >= 18 && havingDrivingLicense);
+// console.log(age >= 18 && hasDriverLicense);
+
+// Q2. how would the result change if hasDriverLicense was set to false ?
+
+// Conditional Operator
+
+// Q3. Write a program to check if the candidates isEligibleForDrive or not ? Age must be equal to or greater than 18.
+
+// Q4. Variable say you have a variable score representing a student's exam score. If the score is greater than or equal to 60, the student passes; otherwise, they fail. use the conditional(ternary0) operator to determine the result and store it in a variable called result. log the result to the console ?
