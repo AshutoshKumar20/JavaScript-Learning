@@ -99,6 +99,8 @@
 // var score = 50;
 // console.log(score >= 60 ? "Pass" : "Fail");
 
-console.log("5" - 3);
-console.log(2 < 12 < 5);
-console.log("20" + 10 + 10);
+// console.log("5" - 3);
+// console.log(2 < 12 < 5);
+// console.log("20" + 10 + 10);
+
+// Loops
