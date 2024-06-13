@@ -123,15 +123,20 @@
 // If the person is 18 or older, a citizen, but not registered to vote, display a message saying they are not eligible due to registration status.
 
 var age = 19;
-var isCitizen = false;
-var isRegisteredToVote = true;
+var isCitizen = true;
+var isRegisteredToVote = false;
+var isResident = false;
 
 if (age >= 18) {
     if (isCitizen) {
-        if (isRegisteredToVote) {
-            console.log("He/She is eligible to vote.")
+        if (isResident) {
+            if (isRegisteredToVote) {
+                console.log("He/She is eligible to vote.")
+            } else {
+                console.log("They are not eligible to vote due to registration status.")
+            }
         } else {
-            console.log("They are not eligible to vote due to registration status.")
+            console.log("They can not give vote as they are not enrolled from their resident side");
         }
     } else {
         console.log("They are not eligible to vote due to citizenship status.")
@@ -143,6 +148,7 @@ else {
 
 // ** Important question **
 // Extend voting eligibility checker with additional conditions ?
+// Added Resident or Not
 
 // Practice questions on if-else
 
