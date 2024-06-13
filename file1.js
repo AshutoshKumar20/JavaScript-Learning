@@ -107,9 +107,9 @@
 
 // Let's check the temperature
 
-var temp = 40;
-if (temp > 30) {
-    console.log("let's go on the beach");
-} else {
-    console.log("It's too hot");
-}
+// var temp = 40;
+// if (temp > 30) {
+//     console.log("let's go on the beach");
+// } else {
+//     console.log("It's too hot");
+// }
