@@ -122,29 +122,29 @@
 
 // If the person is 18 or older, a citizen, but not registered to vote, display a message saying they are not eligible due to registration status.
 
-var age = 19;
-var isCitizen = true;
-var isRegisteredToVote = false;
-var isResident = false;
+// var age = 19;
+// var isCitizen = true;
+// var isRegisteredToVote = false;
+// var isResident = false;
 
-if (age >= 18) {
-    if (isCitizen) {
-        if (isResident) {
-            if (isRegisteredToVote) {
-                console.log("He/She is eligible to vote.")
-            } else {
-                console.log("They are not eligible to vote due to registration status.")
-            }
-        } else {
-            console.log("They can not give vote as they are not enrolled from their resident side");
-        }
-    } else {
-        console.log("They are not eligible to vote due to citizenship status.")
-    }
-}
-else {
-    console.log("They are not eligible to vote.");
-}
+// if (age >= 18) {
+//     if (isCitizen) {
+//         if (isResident) {
+//             if (isRegisteredToVote) {
+//                 console.log("He/She is eligible to vote.")
+//             } else {
+//                 console.log("They are not eligible to vote due to registration status.")
+//             }
+//         } else {
+//             console.log("They can not give vote as they are not enrolled from their resident side");
+//         }
+//     } else {
+//         console.log("They are not eligible to vote due to citizenship status.")
+//     }
+// }
+// else {
+//     console.log("They are not eligible to vote.");
+// }
 
 // ** Important question **
 // Extend voting eligibility checker with additional conditions ?
@@ -154,11 +154,31 @@ else {
 
 // Write a program to check if a number is even or odd ?
 
-
+// var givenNumber = 49;
+// if (givenNumber % 2 == 0) {
+//     console.log("Given Number is Even");
+// } else {
+//     console.log("Given Number is Odd");
+// }
 
 // Write a program to check if a number is prime?
 
+// var isPrime = 0
+// for (var i = 0; i < 10; i++) {
+//     prime = i % 1 == 0
+//     console.log(i);
+// }
+
 // Write a program to check if a number is positive, negative or zero ?
+
+// var num = -10;
+// if (num > 0) {
+//     console.log("Number is Positive");
+// } else if (num == 0) {
+//     console.log("Number is Zero");
+// } else {
+//     console.log("Number is Negative");
+// }
 
 // Switch Statement
 
