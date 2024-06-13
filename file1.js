@@ -96,6 +96,9 @@
 
 // Q4. Let's say you have a variable score representing a student's exam score. If the score is greater than or equal to 60, the student passes; otherwise, they fail. use the conditional(ternary0) operator to determine the result and store it in a variable called result. log the result to the console ?
 
+// var score = 50;
+// console.log(score >= 60 ? "Pass" : "Fail");
+
 // console.log("5" - 3);
 // console.log( 2 < 12 < 5);
 // console.log( "20" + 10 + 10)
