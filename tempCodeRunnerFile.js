@@ -1,1 +1,1 @@
-hello
+It's too hot
