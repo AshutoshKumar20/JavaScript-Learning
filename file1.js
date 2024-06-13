@@ -91,6 +91,9 @@
 
 // Q3. Write a program to check if the candidates isEligibleForDrive or not ? Age must be equal to or greater than 18.
 
+// var age = 20;
+// console.log(age >= 20 ? "Eligible for drive" : "Not eligible for drive")
+
 // Q4. Let's say you have a variable score representing a student's exam score. If the score is greater than or equal to 60, the student passes; otherwise, they fail. use the conditional(ternary0) operator to determine the result and store it in a variable called result. log the result to the console ?
 
 // console.log("5" - 3);
