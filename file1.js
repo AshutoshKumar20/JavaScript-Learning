@@ -72,17 +72,21 @@
 // console.log(c > 10 || d > 15)
 
 // var isOpen = true;
-// console.log(isOpen) 
+// console.log(isOpen)
 
 // Q1. Write a program that determines if a person is eligible to drive based on their age being greater than or equal to 18 and having a valid driver's license ?
 
-var age = 18;
-var hasDriverLicense = true;
+// var age = 18;
+// var hasDriverLicense = true;
 
 // console.log(age >= 18 && hasDriverLicense);
 
 // Q2. how would the result change if hasDriverLicense was set to false ?
 
+// var age = 18;
+// var hasDriverLicense = false;
+
+// console.log(age >= 18 && hasDriverLicense)
 // Conditional Operator
 
 // Q3. Write a program to check if the candidates isEligibleForDrive or not ? Age must be equal to or greater than 18.
