@@ -113,3 +113,22 @@
 // } else {
 //     console.log("It's too hot");
 // }
+
+// If the person is 18 years or older, a citizen, and registered to vote, display a message saying they are eligible to vote.
+
+// If the person is younger than 18, not a citizen, or not registered to vote, display a message saying they are not eligible to vote.
+
+// If the person is 18 or older but not a citizen, display a message saying they are not eligible to vote due to citizenship status.
+
+// If the person is 18 or older, a citizen, but not registered to vote, display a message saying they are not eligible due to registration status.
+
+// ** Important question **
+// Extend voting eligibility checker with additional conditions ?
+
+// Practice questions on if-else
+
+// Write a program to check if a number is even or odd ?
+
+// Write a program to check if a number is prime?
+
+// Write a program to check if a number is positive, negative or zero ?
