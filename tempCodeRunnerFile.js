@@ -1,1 +1,1 @@
-It's too hot
+true

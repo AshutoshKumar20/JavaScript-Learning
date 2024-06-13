@@ -122,6 +122,25 @@
 
 // If the person is 18 or older, a citizen, but not registered to vote, display a message saying they are not eligible due to registration status.
 
+var age = 19;
+var isCitizen = false;
+var isRegisteredToVote = true;
+
+if (age >= 18) {
+    if (isCitizen) {
+        if (isRegisteredToVote) {
+            console.log("He/She is eligible to vote.")
+        } else {
+            console.log("They are not eligible to vote due to registration status.")
+        }
+    } else {
+        console.log("They are not eligible to vote due to citizenship status.")
+    }
+}
+else {
+    console.log("They are not eligible to vote.");
+}
+
 // ** Important question **
 // Extend voting eligibility checker with additional conditions ?
 
@@ -129,6 +148,18 @@
 
 // Write a program to check if a number is even or odd ?
 
+
+
 // Write a program to check if a number is prime?
 
 // Write a program to check if a number is positive, negative or zero ?
+
+// Switch Statement
+
+// Q: Write a JavaScript switch statement that takes a variable areaOfShapes representing
+// different shapes, and based on its value, calculates and logs the area of the corresponding
+// shape. Consider three shapes: 'Rectangle,' 'Circle,' and 'Square.' For 'Rectangle,' use variables a
+// and b as the sides; for 'Circle,' use a variable r as the radius; and for 'Square,' use variable a as the
+// side length. If the provided shape is not recognized, log a message saying, 'Sorry the shape is not
+// available.' Test your switch statement with areaOfShapes set to 'Square' and sides a and b set to
+// 5 and 10, respectively. Ensure that the correct area (25 in this case) is logged to the console.
