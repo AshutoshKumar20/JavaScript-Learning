@@ -195,3 +195,19 @@ var a = 5;
 var b = 10;
 var result;
 
+// While loop
+
+//Count 1 to 10
+// let i = 1;
+// while (i <= 10) {
+//     console.log(i)
+//     i++
+// }
+
+// Table of 5
+// let num = 5;
+// let i = 1
+// while (i <= 10) {
+//     console.log(num * i)
+//     i++
+// }
