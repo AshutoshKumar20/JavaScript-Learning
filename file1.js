@@ -189,3 +189,9 @@
 // side length. If the provided shape is not recognized, log a message saying, 'Sorry the shape is not
 // available.' Test your switch statement with areaOfShapes set to 'Square' and sides a and b set to
 // 5 and 10, respectively. Ensure that the correct area (25 in this case) is logged to the console.
+
+var shape = "square";
+var a = 5;
+var b = 10;
+var result;
+
