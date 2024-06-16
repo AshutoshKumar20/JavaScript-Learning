@@ -231,19 +231,20 @@
 
 
 // Table of 5 using while loop
-// let num = 5;
-// let i = 1
-// while (i <= 10) {
-//     console.log(num * i)
-//     i++
-// }
+let num = 15;
+let i = 1
+while (i <= 10) {
+    result = num * i
+    console.log("15 * " + i + " =", result)
+    i++
+}
 
 // Table of 5 using do-while loop
 
-let num = 5;
-let i = 1;
-do {
-    result = num * i
-    console.log(result);
-    i++;
-} while (i <= 10)
+// let num = 5;
+// let i = 1;
+// do {
+//     result = num * i
+//     console.log(result);
+//     i++;
+// } while (i <= 10)
