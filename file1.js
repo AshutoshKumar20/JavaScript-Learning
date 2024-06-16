@@ -190,28 +190,28 @@
 // available.' Test your switch statement with areaOfShapes set to 'Square' and sides a and b set to
 // 5 and 10, respectively. Ensure that the correct area (25 in this case) is logged to the console.
 
-var shapes = "triangle";
-var a = 5;
-var b = 10;
-var result;
+// var shapes = "triangle";
+// var a = 5;
+// var b = 10;
+// var result;
 
-switch (shapes) {
-    case "square":
-        result = a * a;
-        console.log(result);
-        break;
-    case "rectangle":
-        result = a * b;
-        console.log(result);
-        break;
-    case "circle":
-        var r = 2;
-        result = 3.147 * r * r
-        console.log(result);
-        break;
-    default:
-        console.log("No Shapes Found")
-}
+// switch (shapes) {
+//     case "square":
+//         result = a * a;
+//         console.log(result);
+//         break;
+//     case "rectangle":
+//         result = a * b;
+//         console.log(result);
+//         break;
+//     case "circle":
+//         var r = 2;
+//         result = 3.147 * r * r
+//         console.log(result);
+//         break;
+//     default:
+//         console.log("No Shapes Found")
+// }
 
 // While loop
 
@@ -222,7 +222,15 @@ switch (shapes) {
 //     i++
 // }
 
-// Table of 5
+// Do while loop
+// let i = 1;
+// do {
+//     console.log(i);
+//     i++
+// } while (i <= 10)
+
+
+// Table of 5 using while loop
 // let num = 5;
 // let i = 1
 // while (i <= 10) {
