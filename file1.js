@@ -237,3 +237,13 @@
 //     console.log(num * i)
 //     i++
 // }
+
+// Table of 5 using do-while loop
+
+let num = 5;
+let i = 1;
+do {
+    result = num * i
+    console.log(result);
+    i++;
+} while (i <= 10)
