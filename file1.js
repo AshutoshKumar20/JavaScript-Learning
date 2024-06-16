@@ -190,10 +190,28 @@
 // available.' Test your switch statement with areaOfShapes set to 'Square' and sides a and b set to
 // 5 and 10, respectively. Ensure that the correct area (25 in this case) is logged to the console.
 
-var shape = "square";
+var shapes = "triangle";
 var a = 5;
 var b = 10;
 var result;
+
+switch (shapes) {
+    case "square":
+        result = a * a;
+        console.log(result);
+        break;
+    case "rectangle":
+        result = a * b;
+        console.log(result);
+        break;
+    case "circle":
+        var r = 2;
+        result = 3.147 * r * r
+        console.log(result);
+        break;
+    default:
+        console.log("No Shapes Found")
+}
 
 // While loop
 
