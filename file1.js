@@ -231,13 +231,13 @@
 
 
 // Table of 5 using while loop
-let num = 15;
-let i = 1
-while (i <= 10) {
-    result = num * i
-    console.log("15 * " + i + " =", result)
-    i++
-}
+// let num = 15;
+// let i = 1
+// while (i <= 10) {
+//     result = num * i
+//     console.log("15 * " + i + " =", result)
+//     i++
+// }
 
 // Table of 5 using do-while loop
 
@@ -248,3 +248,6 @@ while (i <= 10) {
 //     console.log(result);
 //     i++;
 // } while (i <= 10)
+
+// Q. Validating a userInput with a Do-while loop
+
