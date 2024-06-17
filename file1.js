@@ -251,3 +251,10 @@
 
 // Q. Validating a userInput with a Do-while loop
 
+let userInput;
+let positiveNumber;
+do {
+    userInput = prompt("Enter a valid positive number: ")
+    positiveNumber = parseFloat(userInput)
+} while (isNaN(positiveNumber) || positiveNumber < 0)
+console.log(positiveNumber);
