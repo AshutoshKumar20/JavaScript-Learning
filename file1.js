@@ -162,11 +162,19 @@
 // }
 
 // Write a program to check if a number is prime?
+// var num = 9;
+// var isPrime = true;
+// for (var i = 2; i < num; i++) {
+//     if (num % i === 0) {
+//         isPrime = false;
+//         break;
+//     }
+// }
 
-// var isPrime = 0
-// for (var i = 0; i < 10; i++) {
-//     prime = i % 1 == 0
-//     console.log(i);
+// if (isPrime) {
+//     console.log("Number is Prime")
+// } else {
+//     console.log("Number is not Prime");
 // }
 
 // Write a program to check if a number is positive, negative or zero ?
@@ -262,12 +270,12 @@
 // Some Practice Questions
 
 // Q1. Calculate the sum of numbers from 1 to 10 using for loop ?
-let num = 0;
-debugger;
-for (let i = 1; i <= 10; i++) {
-    num = num + i;
-    console.log(num)
-}
+// let num = 0;
+// debugger;
+// for (let i = 1; i <= 10; i++) {
+//     num = num + i;
+//     console.log(num)
+// }
 
 // Q2. Generating a time table of 5 using for loop ?
 
