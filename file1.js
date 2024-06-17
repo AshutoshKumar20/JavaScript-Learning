@@ -251,10 +251,18 @@
 
 // Q. Validating a userInput with a Do-while loop
 
-let userInput;
-let positiveNumber;
-do {
-    userInput = prompt("Enter a valid positive number: ")
-    positiveNumber = parseFloat(userInput)
-} while (isNaN(positiveNumber) || positiveNumber < 0)
-console.log(positiveNumber);
+// let userInput;
+// let positiveNumber;
+// do {
+//     userInput = prompt("Enter a valid positive number: ")
+//     positiveNumber = parseFloat(userInput)
+// } while (isNaN(positiveNumber) || positiveNumber < 0)
+// console.log(positiveNumber);
+
+// Some Practice Questions
+
+// Q1. Calculate the sum of numbers from 1 to 10 using for loop ?
+
+// Q2. Generating a time table of 5 using for loop ?
+
+// Q3. Write a JS Program to print the table 0f (8, 9, 12, 13) using for loop ?
