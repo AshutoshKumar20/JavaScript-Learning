@@ -262,6 +262,12 @@
 // Some Practice Questions
 
 // Q1. Calculate the sum of numbers from 1 to 10 using for loop ?
+let num = 0;
+debugger;
+for (let i = 1; i <= 10; i++) {
+    num = num + i;
+    console.log(num)
+}
 
 // Q2. Generating a time table of 5 using for loop ?
 
