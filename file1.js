@@ -277,6 +277,10 @@
 //     console.log(num)
 // }
 
-// Q2. Generating a time table of 5 using for loop ?
+// Q2. Generating a table of 5 using for loop ?
 
 // Q3. Write a JS Program to print the table 0f (8, 9, 12, 13) using for loop ?
+
+// Q4. Write a program to check if a year is a leap year, If a year is divisible by 4 and not divisible by 100 or if a year is divisible by 400, then it is a leap yar. Otherwise, it is not a leap year.
+
+// Q5. Draw a pattern of asterisks using for loop
