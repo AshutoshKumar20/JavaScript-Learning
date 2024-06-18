@@ -284,3 +284,7 @@
 // Q4. Write a program to check if a year is a leap year, If a year is divisible by 4 and not divisible by 100 or if a year is divisible by 400, then it is a leap yar. Otherwise, it is not a leap year.
 
 // Q5. Draw a pattern of asterisks using for loop
+
+// Functions
+
+// Q1. Write a JS Program that defines a function called greet to welcome individuals to the Coder's Party. The function should take a name parameter and output the message "Hello [name], Welcome to the party". Call the function twice, once with the argument "Vinod" and once with the argument "Ashu"
