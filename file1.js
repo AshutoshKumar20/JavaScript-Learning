@@ -351,6 +351,17 @@
 // 1. Write a JavaScript program that displays the largest integer among two integers.
 // Click me to see the solution
 
+// let num1 = 0;
+// let num2 = -15;
+
+// if (num1 > num2) {
+//     console.log(num1);
+// } else if (num2 > num1) {
+//     console.log(num2);
+// } else {
+//     console.log("Both are equal");
+// }
+
 // 2. Write a JavaScript conditional statement to find the sign of the product of three numbers. Display an alert box with the specified sign.
 // Sample numbers : 3, -7, 2
 // Output : The sign is -
