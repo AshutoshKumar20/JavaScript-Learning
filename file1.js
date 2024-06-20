@@ -312,7 +312,22 @@
 
 // Q4. Write a program to check if a year is a leap year, If a year is divisible by 4 and not divisible by 100 or if a year is divisible by 400, then it is a leap yar. Otherwise, it is not a leap year.
 
+// var givenYear = 2024;
+// if (givenYear % 4 === 0 && givenYear % 100 != 0 || givenYear % 400 === 0) {
+//     console.log("This year is a Leap Year");
+// } else {
+//     console.log("This year is not a Leap Year");
+// }
+
 // Q5. Draw a pattern of asterisks using for loop
+
+// var pattern = "";
+// for (var i = 1; i <= 5; i++) {
+//     for (var j = i; j <= i; j++) {
+//         pattern = pattern + " *"
+//         console.log(pattern);
+//     }
+// }
 
 // Functions
 
