@@ -331,6 +331,17 @@
 
 // Functions
 
-// Q1. Write a JS Program that defines a function called greet to welcome individuals to the Coder's Party. The function should take a name parameter and output the message "Hello [name], Welcome to the party". Call the function twice, once with the argument "Vinod" and once with the argument "Ashu"
+// Q1. Write a JS Program that defines a function called greet to welcome individuals to the Coder's Party. The function should take a name parameter and output the message "Hello [name], Welcome to the party". Call the function twice, once with the argument "Vinod" and once with the argument "Ashu".
+
+// function greet(name) {
+//     console.log("Hello " + name + ", Welcome to the party.")
+// }
+// greet("Ashutosh")
+// greet("Vinod")
 
 // Q2. Write a function to find the sum of two numbers with parameters.
+
+// function sum(a, b) {
+//     return a + b;
+// }
+// console.log(sum(10, 20))
