@@ -278,8 +278,37 @@
 // }
 
 // Q2. Generating a table of 5 using for loop ?
+// var num = 5
+// for (var i = 1; i <= 10; i++) {
+//     result = num * i;
+//     console.log(`${num} * ${i} = ${result}`);
+// }
 
 // Q3. Write a JS Program to print the table 0f (8, 9, 12, 13) using for loop ?
+
+// var num = 8
+// for (var i = 1; i <= 10; i++) {
+//     result = num * i;
+//     console.log(`${num} * ${i} = ${result}`);
+// }
+
+// var num = 9
+// for (var i = 1; i <= 10; i++) {
+//     result = num * i;
+//     console.log(`${num} * ${i} = ${result}`);
+// }
+
+// var num = 12
+// for (var i = 1; i <= 10; i++) {
+//     result = num * i;
+//     console.log(`${num} * ${i} = ${result}`);
+// }
+
+// var num = 13
+// for (var i = 1; i <= 10; i++) {
+//     result = num * i;
+//     console.log(`${num} * ${i} = ${result}`);
+// }
 
 // Q4. Write a program to check if a year is a leap year, If a year is divisible by 4 and not divisible by 100 or if a year is divisible by 400, then it is a leap yar. Otherwise, it is not a leap year.
 
@@ -288,3 +317,5 @@
 // Functions
 
 // Q1. Write a JS Program that defines a function called greet to welcome individuals to the Coder's Party. The function should take a name parameter and output the message "Hello [name], Welcome to the party". Call the function twice, once with the argument "Vinod" and once with the argument "Ashu"
+
+// Q2. Write a function to find the sum of two numbers with parameters.
