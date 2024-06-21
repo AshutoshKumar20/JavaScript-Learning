@@ -433,3 +433,31 @@
 // }
 // console.log(sum(10, 20))
 
+// Q3. Write a javascript function calculator that takes two numbers and an operator as parameters and returns the result of the operation. The function should support addition, subtraction, multiplication and division.
+
+// function calculate(a, b, operator) {
+//     let result;
+//     switch (operator) {
+//         case "+":
+//             result = a + b;
+//             return result
+//             break;
+//         case "-":
+//             result = a - b;
+//             return result
+//             break;
+//         case "/":
+//             result = a / b;
+//             return result
+//             break;
+//         case "*":
+//             result = a * b;
+//             return result
+//             break;
+//         default:
+//             return "No Operators Found"
+//     }
+// }
+// console.log(calculate(6, 3, "."))
+
+// Q2.  
