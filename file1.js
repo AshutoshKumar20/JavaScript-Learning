@@ -329,23 +329,6 @@
 //     }
 // }
 
-// Functions
-
-// Q1. Write a JS Program that defines a function called greet to welcome individuals to the Coder's Party. The function should take a name parameter and output the message "Hello [name], Welcome to the party". Call the function twice, once with the argument "Vinod" and once with the argument "Ashu".
-
-// function greet(name) {
-//     console.log("Hello " + name + ", Welcome to the party.")
-// }
-// greet("Ashutosh")
-// greet("Vinod")
-
-// Q2. Write a function to find the sum of two numbers with parameters.
-
-// function sum(a, b) {
-//     return a + b;
-// }
-// console.log(sum(10, 20))
-
 // Questions on Expressions and Loops
 
 // 1. Write a JavaScript program that displays the largest integer among two integers.
@@ -366,6 +349,8 @@
 // Sample numbers : 3, -7, 2
 // Output : The sign is -
 // Click me to see the solution
+
+
 
 // 3. Write a JavaScript conditional statement to sort three numbers. Display an alert box to show the results.
 // Sample numbers : 0, -1, 4
@@ -429,3 +414,22 @@
 
 // 12. Write a JavaScript program to sum 3 and 5 multiples under 1000.
 // Click me to see the solution
+
+
+// Functions
+
+// Q1. Write a JS Program that defines a function called greet to welcome individuals to the Coder's Party. The function should take a name parameter and output the message "Hello [name], Welcome to the party". Call the function twice, once with the argument "Vinod" and once with the argument "Ashu".
+
+// function greet(name) {
+//     console.log("Hello " + name + ", Welcome to the party.")
+// }
+// greet("Ashutosh")
+// greet("Vinod")
+
+// Q2. Write a function to find the sum of two numbers with parameters.
+
+// function sum(a, b) {
+//     return a + b;
+// }
+// console.log(sum(10, 20))
+
