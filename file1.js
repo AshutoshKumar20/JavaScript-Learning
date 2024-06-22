@@ -460,4 +460,4 @@
 // }
 // console.log(calculate(6, 3, "."))
 
-// Q2.  
+// Q2. Write a function to reverse a given string without using built in reverse methods .
