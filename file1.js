@@ -461,3 +461,10 @@
 // console.log(calculate(6, 3, "."))
 
 // Q2. Write a function to reverse a given string without using built in reverse methods .
+
+let reverseString = function isReverse(str) {
+    for (let char = 0; char <= str; char++) {
+        console.log(str);
+    }
+}
+console.log(isReverse("Ashutosh"))
