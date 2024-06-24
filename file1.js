@@ -481,3 +481,21 @@
 //     return reverse;
 // }
 // console.log(isReverse("Ashutosh"))
+
+// Q3. Create a function to determine if a given string is palindrome(reads same as forward and backward) or not
+
+// const isPalindrome = (str) => {
+//     let reverse = ""
+//     for (let char = str.length - 1; char >= 0; char--) {
+//         reverse = reverse + str[char]
+//         // console.log(str[char]);
+//     }
+//     // return reverse;
+//     if (str === reverse) {
+//         return true
+//     } else {
+//         return false
+//     }
+//     return reverse
+// }
+// console.log(isPalindrome("sos"))
