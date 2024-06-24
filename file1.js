@@ -462,9 +462,22 @@
 
 // Q2. Write a function to reverse a given string without using built in reverse methods .
 
-let reverseString = function isReverse(str) {
-    for (let char = 0; char <= str; char++) {
-        console.log(str);
-    }
-}
-console.log(isReverse("Ashutosh"))
+// let isReverse = (str) => {
+//     let reverse = ""
+//     for (let char = 0; char <= str.length - 1; char++) {
+//         reverse = reverse + str[char]
+//         // console.log(str[char]);
+//     }
+//     return reverse;
+// }
+// console.log(isReverse("Ashutosh"))
+
+// let isReverse = (str) => {
+//     let reverse = ""
+//     for (let char = str.length - 1; char >= 0; char--) {
+//         reverse = reverse + str[char]
+//         // console.log(str[char]);
+//     }
+//     return reverse;
+// }
+// console.log(isReverse("Ashutosh"))

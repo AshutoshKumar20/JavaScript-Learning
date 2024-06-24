@@ -1,6 +1,9 @@
-let numbers = [3, -7, 85 - 5]
-if (numbers === -7, -5) {
-    alert("The sign is -")
-} else {
-    console.log("Sign is not found");
+let isReverse = (str) => {
+    let reverse = ""
+    for (let char = 0; char <= str.length - 1; char++) {
+        reverse = reverse + str[char]
+        // console.log(str[char]);
+    }
+    return reverse;
 }
+isReverse("Ashutosh")
