@@ -332,7 +332,6 @@
 // Questions on Expressions and Loops
 
 // 1. Write a JavaScript program that displays the largest integer among two integers.
-// Click me to see the solution
 
 // let num1 = 0;
 // let num2 = -15;
@@ -348,9 +347,18 @@
 // 2. Write a JavaScript conditional statement to find the sign of the product of three numbers. Display an alert box with the specified sign.
 // Sample numbers : 3, -7, 2
 // Output : The sign is -
-// Click me to see the solution
 
-
+// let result = ""
+// let productOfNumbers = function myFunction(a, b, c) {
+//     result = a * b * c
+//     if (result < 0) {
+//         alert("The sign of product of numbers is negative")
+//     } else {
+//         alert("The sign of product of numbers is positive")
+//     }
+//     return result
+// }
+// console.log(productOfNumbers(2, 5, -2))
 
 // 3. Write a JavaScript conditional statement to sort three numbers. Display an alert box to show the results.
 // Sample numbers : 0, -1, 4
