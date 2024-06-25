@@ -364,39 +364,44 @@
 // Sample numbers : 0, -1, 4
 // Output : 4, 0, -1
 
-let x = 5;
-let y = 6;
-let z = 7;
+// let x = 5;
+// let y = 6;
+// let z = 7;
 
-if (x > y && x > z) {
-    if (y > z) {
-        alert(x + " , " + y + " , " + z)
-    } else {
-        alert(x + " , " + z + " , " + y)
-    }
-}
-if (y > x && y > z) {
-    if (x > z) {
-        alert(y + " , " + x + " , " + z)
-    } else {
-        alert(y + " , " + z + " , " + x)
-    }
-}
-if (z > x && z > y) {
-    if (x > y) {
-        alert(z + " , " + x + " , " + y)
-    } else {
-        alert(z + " , " + y + " , " + x)
-    }
-}
-if (x === y === z) {
-    alert("Numbers are equal")
-}
+// if (x > y && x > z) {
+//     if (y > z) {
+//         alert(x + " , " + y + " , " + z)
+//     } else {
+//         alert(x + " , " + z + " , " + y)
+//     }
+// }
+// if (y > x && y > z) {
+//     if (x > z) {
+//         alert(y + " , " + x + " , " + z)
+//     } else {
+//         alert(y + " , " + z + " , " + x)
+//     }
+// }
+// if (z > x && z > y) {
+//     if (x > y) {
+//         alert(z + " , " + x + " , " + y)
+//     } else {
+//         alert(z + " , " + y + " , " + x)
+//     }
+// }
+// if (x === y === z) {
+//     console.log("Numbers are equal")
+// }
 
 // 4. Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the results.
 // Sample numbers : -5, -2, -6, 0, -1
 // Output : 0
-// Click me to see the solution
+
+// let a = -5;
+// let b = -2;
+// let c = -6;
+//     console.log("Numbers are equal");
+// }
 
 // 5. Write a JavaScript for loop that iterates from 0 to 15. For each iteration, it checks if the current number is odd or even, and displays a message on the screen.
 // Sample Output :
