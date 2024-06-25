@@ -411,6 +411,14 @@
 // ----------
 // ----------
 
+for (let i = 0; i <= 15; i++) {
+    if (i % 2 === 0) {
+        console.log(i + " is even")
+    } else {
+        console.log(i + " is odd");
+    }
+}
+
 // 6. Write a JavaScript program that computes the average marks of the following students. Then, this average is used to determine the corresponding grade.
 
 // Student Name	Marks
