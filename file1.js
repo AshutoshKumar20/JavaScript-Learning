@@ -411,22 +411,22 @@
 // ----------
 // ----------
 
-for (let i = 0; i <= 15; i++) {
-    if (i % 2 === 0) {
-        console.log(i + " is even")
-    } else {
-        console.log(i + " is odd");
-    }
-}
+// for (let i = 0; i <= 15; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i + " is even")
+//     } else {
+//         console.log(i + " is odd");
+//     }
+// }
 
 // 6. Write a JavaScript program that computes the average marks of the following students. Then, this average is used to determine the corresponding grade.
 
 // Student Name	Marks
-// David	80
-// Vinoth	77
-// Divya	88
-// Ishitha	95
-// Thomas	68
+// Tony 	98
+// Steve	77
+// Bruce	96
+// Scarlet	75
+// Clint	68
 // The grades are computed as follows :
 
 // Range	Grade
@@ -435,10 +435,22 @@ for (let i = 0; i <= 15; i++) {
 // <80	C
 // <90	B
 // <100	A
-// Click me to see the solution
+
+
 
 // 7. Write a JavaScript program that iterates integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". For numbers multiples of both three and five print "FizzBuzz".
-// Click me to see the solution
+
+// for (i = 1; i <= 100; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log(i + " FizzBuzz")
+//     } else if (i % 5 === 0) {
+//         console.log(i + " Buzz");
+//     } else if (i % 3 === 0) {
+//         console.log(i + " Fizz");
+//     } else {
+//         console.log(i);
+//     }
+// }
 
 // 8. According to Wikipedia a happy number is defined by the following process :
 // "Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers (or sad numbers)".
