@@ -436,7 +436,13 @@
 // <90	B
 // <100	A
 
-
+let studentNames = [["Tony", 98], ["Steve", 77], ["Bruce", 96], ["Scarlet", 75], ["Clint", 68]];
+let average = 0
+for (let i = 0; i < studentNames.length; i++) {
+    average += studentNames[i][1]
+    // let avg = average / studentNames.length
+}
+console.log(average / studentNames.length);
 
 // 7. Write a JavaScript program that iterates integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". For numbers multiples of both three and five print "FizzBuzz".
 
