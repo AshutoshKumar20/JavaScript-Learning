@@ -436,29 +436,27 @@
 // <90	B
 // <100	A
 
-// let studentNames = [["Tony", 98], ["Steve", 87], ["Bruce", 96], ["Scarlet", 85], ["Clint", 68]];
-// let average = 0
-// for (let i = 0; i < studentNames.length; i++) {
-//     average += studentNames[i][1]
-//     var avg = (average / studentNames.length)
-// }
-// console.log(average / studentNames.length);
+let studentNames = [["Tony", 98], ["Steve", 87], ["Bruce", 96], ["Scarlet", 85], ["Clint", 68]];
+let average = 0
+for (let i = 0; i < studentNames.length; i++) {
+    average += studentNames[i][1]
 
-// if (avg < 60) {
-//     console.log("F");
-// } else if (avg < 70) {
-//     console.log("D");
-// } else if (avg < 80) {
-//     console.log("C");
-// }
-// else if (avg < 90) {
-//     console.log("B");
-// }
-// else if (avg < 100) {
-//     console.log("A");
-// } else {
-//     console.log("Student is fail")
-// }
+}
+console.log(average / studentNames.length);
+var avg = (average / studentNames.length)
+if (avg < 60) {
+    console.log("F");
+} else if (avg < 70) {
+    console.log("D");
+} else if (avg < 80) {
+    console.log("C");
+}
+else if (avg < 90) {
+    console.log("B");
+}
+else if (avg < 100) {
+    console.log("A");
+}
 
 // 7. Write a JavaScript program that iterates integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". For numbers multiples of both three and five print "FizzBuzz".
 
@@ -478,6 +476,7 @@
 // "Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers (or sad numbers)".
 // Write a JavaScript program to find and print the first 5 happy numbers.
 
+let num = 19;
 
 
 // 9. Write a JavaScript program to find the Armstrong numbers of 3 digits.
