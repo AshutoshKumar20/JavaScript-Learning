@@ -476,11 +476,39 @@
 // "Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers (or sad numbers)".
 // Write a JavaScript program to find and print the first 5 happy numbers.
 
-function happyNumber(num) {
-    let m, n
-    let c = []
-}
+// function happyNumber(num) {
+//     var m, n
+//     var c = []
 
+//     while (num !== 1 && c[num] !== true) {
+//         c[num] = true;
+//         m = 0;
+
+
+//         // Calculating square  of digits
+
+//         while (num > 0) {
+//             n = num % 10;
+//             m += n * n
+//             num = (num - n) / 10
+//         }
+//         num = m
+//     }
+//     return (num === 1)
+// }
+
+// // Calculate track and count the number
+// var cnt = 5;
+// var num = 0;
+// var f5 = '';
+
+// while (cnt-- > 0) {
+//     while (!happyNumber(num))
+//         num++;
+//     f5 = f5 + (num + ', ')
+//     num++;
+// }
+// console.log("First 5 Happy Numbers are : " + f5);
 
 // 9. Write a JavaScript program to find the Armstrong numbers of 3 digits.
 // Note : An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself. For example, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.
