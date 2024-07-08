@@ -517,7 +517,7 @@ function armstrongNumber() {
     for (i = 1; i <= 10; i++) {
         for (j = 0; j <= 10; j++) {
             for (k = 0; k <= 10; k++) {
-
+                var pow = Math.pow(i, 3)
             }
         }
     }
