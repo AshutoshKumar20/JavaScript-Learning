@@ -513,23 +513,23 @@
 // 9. Write a JavaScript program to find the Armstrong numbers of 3 digits.
 // Note : An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself. For example, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.
 
-function armstrongNumber() {
-    for (i = 1; i < 10; ++i) {
-        for (j = 0; j < 10; ++j) {
-            for (k = 0; k < 10; ++k) {
-                var pow = Math.pow(i, 3) + Math.pow(j, 3) + Math.pow(k, 3)
+// function armstrongNumber() {
+//     for (i = 1; i < 10; ++i) {
+//         for (j = 0; j < 10; ++j) {
+//             for (k = 0; k < 10; ++k) {
+//                 var pow = Math.pow(i, 3) + Math.pow(j, 3) + Math.pow(k, 3)
 
-                var plusNumber = i * 100 + j * 10 + k;
+//                 var plusNumber = i * 100 + j * 10 + k;
 
-                if (pow === plusNumber) {
-                    console.log(pow);
-                }
-            }
-        }
-    }
+//                 if (pow === plusNumber) {
+//                     console.log(pow);
+//                 }
+//             }
+//         }
+//     }
 
-}
-armstrongNumber()
+// }
+// armstrongNumber()
 
 // 10. Write a JavaScript program to construct the following pattern, using a nested for loop.
 
@@ -541,7 +541,20 @@ armstrongNumber()
 // Click me to see the solution
 
 // 11. Write a JavaScript program to compute the greatest common divisor (GCD) of two positive integers.
-// Click me to see the solution
+
+var a = 20
+var b = 40
+var gcd;
+
+while (a != b) {
+    if (a > b) {
+        a = a - b
+    } else {
+        b = b - a
+    }
+}
+gcd = a
+console.log(gcd);
 
 // 12. Write a JavaScript program to sum 3 and 5 multiples under 1000.
 // Click me to see the solution
