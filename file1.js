@@ -514,13 +514,20 @@
 // Note : An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself. For example, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.
 
 function armstrongNumber() {
-    for (i = 1; i <= 10; i++) {
-        for (j = 0; j <= 10; j++) {
-            for (k = 0; k <= 10; k++) {
-                var pow = Math.pow(i, 3)
+    for (i = 1; i < 10; ++i) {
+        for (j = 0; j < 10; ++j) {
+            for (k = 0; k < 10; ++k) {
+                var pow = Math.pow(i, 3) + Math.pow(j, 3) + Math.pow(k, 3)
+
+                var plusNumber = i * 100 + j * 10 + k;
+
+                if (pow === plusNumber) {
+                    console.log(pow);
+                }
             }
         }
     }
+
 }
 armstrongNumber()
 
