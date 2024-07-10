@@ -542,8 +542,8 @@
 
 // 11. Write a JavaScript program to compute the greatest common divisor (GCD) of two positive integers.
 
-var a = 20
-var b = 40
+var a = 2154
+var b = 458
 var gcd;
 
 while (a != b) {
