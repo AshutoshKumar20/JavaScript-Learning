@@ -542,22 +542,22 @@
 
 // 11. Write a JavaScript program to compute the greatest common divisor (GCD) of two positive integers.
 
-var a = 2154
-var b = 458
-var gcd;
+// var a = 2154
+// var b = 458
+// var gcd;
 
-while (a != b) {
-    if (a > b) {
-        a = a - b
-    } else {
-        b = b - a
-    }
-}
-gcd = a
-console.log(gcd);
+// while (a != b) {
+//     if (a > b) {
+//         a = a - b
+//     } else {
+//         b = b - a
+//     }
+// }
+// gcd = a
+// console.log(gcd);
 
 // 12. Write a JavaScript program to sum 3 and 5 multiples under 1000.
-// Click me to see the solution
+
 
 
 // Functions
