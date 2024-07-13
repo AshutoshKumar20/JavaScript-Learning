@@ -476,43 +476,60 @@
 // "Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers (or sad numbers)".
 // Write a JavaScript program to find and print the first 5 happy numbers.
 
-function happyNumber(num) {
-    let m, n
-    let c = []
+// function happyNumber(num) {
+//     var m, n
+//     var c = []
 
-    while (num !== 1 || c[num] !== true) {
-        c[num] = true;
-        m = 0;
+//     while (num !== 1 && c[num] !== true) {
+//         c[num] = true;
+//         m = 0;
 
 
-        // Calculating square  of digits
+//         // Calculating square  of digits
 
-        while (num > 0) {
-            n = num % 10;
-            m += n * n
-            num = (num - n) % 10
-        }
-        num = m
-    }
-    return num === 1
-}
+//         while (num > 0) {
+//             n = num % 10;
+//             m += n * n
+//             num = (num - n) / 10
+//         }
+//         num = m
+//     }
+//     return (num === 1)
+// }
 
-// Calculate track and count the number
-let cnt = 5;
-let num = 1;
-let first5Numbers = '';
+// // Calculate track and count the number
+// var cnt = 5;
+// var num = 0;
+// var f5 = '';
 
-while (cnt-- > 0) {
-    while (!happyNumber(num))
-        num++
-    first5Numbers = first5Numbers + ', '
-    num++
-}
-console.log("First 5 Happy Numbers are :", first5Numbers);
+// while (cnt-- > 0) {
+//     while (!happyNumber(num))
+//         num++;
+//     f5 = f5 + (num + ', ')
+//     num++;
+// }
+// console.log("First 5 Happy Numbers are : " + f5);
 
 // 9. Write a JavaScript program to find the Armstrong numbers of 3 digits.
 // Note : An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself. For example, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.
-// Click me to see the solution
+
+// function armstrongNumber() {
+//     for (i = 1; i < 10; ++i) {
+//         for (j = 0; j < 10; ++j) {
+//             for (k = 0; k < 10; ++k) {
+//                 var pow = Math.pow(i, 3) + Math.pow(j, 3) + Math.pow(k, 3)
+
+//                 var plusNumber = i * 100 + j * 10 + k;
+
+//                 if (pow === plusNumber) {
+//                     console.log(pow);
+//                 }
+//             }
+//         }
+//     }
+
+// }
+// armstrongNumber()
 
 // 10. Write a JavaScript program to construct the following pattern, using a nested for loop.
 
@@ -521,14 +538,46 @@ console.log("First 5 Happy Numbers are :", first5Numbers);
 // * * *
 // * * * *
 // * * * * *
-// Click me to see the solution
+
+var pattern = ''
+for (i = 0; i <= 5; i++) {
+    for (j = 0; j <= i; j++) {
+        //console.log(" * ");
+        pattern = pattern + " *"
+        console.log(pattern);
+
+    }
+    //console.log(pattern);
+
+}
+
 
 // 11. Write a JavaScript program to compute the greatest common divisor (GCD) of two positive integers.
-// Click me to see the solution
+
+// var a = 2154
+// var b = 458
+// var gcd;
+
+// while (a != b) {
+//     if (a > b) {
+//         a = a - b
+//     } else {
+//         b = b - a
+//     }
+// }
+// gcd = a
+// console.log(gcd);
 
 // 12. Write a JavaScript program to sum 3 and 5 multiples under 1000.
-// Click me to see the solution
 
+// var sum = 0;
+// for (i = 0; i < 1000; i++) {
+//     if (i % 3 === 0 || i % 5 === 0) {
+//         sum = sum + i
+//     }
+
+// }
+// console.log(sum);
 
 // Functions
 

@@ -538,7 +538,16 @@
 // * * *
 // * * * *
 // * * * * *
-// Click me to see the solution
+
+
+for (i = 1; i <= 5; i++) {
+    var pattern = ""
+    for (j = 1; j <= i; j++) {
+        pattern = pattern + (" *")
+    }
+    console.log(pattern);
+}
+
 
 // 11. Write a JavaScript program to compute the greatest common divisor (GCD) of two positive integers.
 
