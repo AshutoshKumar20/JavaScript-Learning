@@ -665,14 +665,10 @@
 // Example x = 32243;
 // Expected Output : 34223
 
-let isReverse = function (num) {
-    let reverse = ""
-    for (i = num.length; i <= num.length; i++) {
-        reverse = num + ""
-    }
-    return reverse;
+function isReverse(num) {
+
 }
-console.log(isReverse(15897));
+console.log(isReverse());
 
 // 2. Write a JavaScript function that checks whether a passed string is a palindrome or not?
 // A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
