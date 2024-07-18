@@ -694,3 +694,7 @@ const months = ["Jan", "Feb", "mar", "June", "Apr", "May",]
 // console.log(months);
 
 // Q4. Delete June from Months
+
+const indexOfUpdate = months.indexOf("June")
+months.splice(indexOfUpdate, 1)
+console.log(months); 
