@@ -675,8 +675,19 @@
 // 2. Write a JavaScript function that checks whether a passed string is a palindrome or not?
 // A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
 
+// var isPalindrome = function (str) {
+//     var reverse = ""
+//     for (var char = str.length - 1; char >= 0; char--) {
+//         reverse = reverse + str[char]
+//     }
+//     if (str === reverse) {
+//         return true
+//     } else {
+//         return false
+//     }
 
-
+// }
+// console.log(isPalindrome("sos"));
 // Arrays
 
 // Q1. Add Dec to months
